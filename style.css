@@ -1,0 +1,69 @@
+.bootstrap-header {
+  background-color: #47bee2;
+  padding: 24px 32px 20px;
+}
+
+.bootstrap-header-title {
+  color: #000000;
+  font-size: 2.4rem;
+  font-weight: 700;
+  margin-bottom: 6px;
+}
+
+.bootstrap-header-subtitle {
+  color: #000000;
+  font-size: 0.95rem;
+  margin-bottom: 0;
+}
+
+/*  Column 1: Button container  */
+.button-container {
+  padding: 20px;
+}
+
+.button-container .btn {
+  width: 150px;
+}
+
+.button-container .reflections-btn {
+  width: calc(100% - 48px);
+  margin: 16px 24px;
+}
+
+/*  Column 2: Carousel area  */
+.carousel-area {
+  padding: 16px;
+}
+
+.carousel-area .carousel-inner img {
+  height: 280px;
+  object-fit: cover;
+}
+
+.tooltip-area {
+  margin-top: 12px;
+}
+
+.tooltip-area img {
+  cursor: pointer;
+  border-radius: 4px;
+}
+
+.btn-secondary {
+  background-color: #47bee2;
+  color:#000000;
+  border-color: #47bee2;
+}
+
+/*  Column 3: Accordion area  */
+.accordion-area {
+  padding: 16px;
+}
+
+.accordion-area .accordion {
+  margin-top: 8px;
+}
+
+.row {
+  min-height: 100vh;
+}
